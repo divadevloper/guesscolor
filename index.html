@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Guessing Game</title>
     <link rel="stylesheet" href="style.css" />
-    <style></style>
   </head>
   <body>
     <div class="container">
-      <h2 data-testid="gameInstructions">Guess the correct color!</h2>
-      <div class="color-box" data-testid="colorBox"></div>
-      <div class="color-options"></div>
-      <p class="game-status" data-testid="gameStatus"></p>
-      <p class="score" data-testid="score">Score: 0</p>
-      <button class="new-game-btn" data-testid="newGameButton">New Game</button>
+      <h2 data-testid="gameInstructions" class="guessname">
+        guess the background color!
+      </h2>
+      <div class="color-box" data-testid="colorBox">
+        <div class="color-options"></div>
+        <p class="game-status" data-testid="gameStatus"></p>
+        <p class="score" data-testid="score">Score: 0</p>
+        <button class="new-game-btn" data-testid="newGameButton">
+          New Game
+        </button>
+      </div>
     </div>
   </body>
 </html>

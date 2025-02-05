@@ -43,7 +43,7 @@ function checkAnswer(selectedColor) {
     setTimeout(() => {
       colorBox.style.backgroundColor = "#fff";
       generateColors();
-    }, 2000);
+    }, 1000);
   } else {
     gameStatus.textContent = " You guess the Wrong correct color... ❌";
     colorBox.style.backgroundColor = targetColor;
@@ -52,7 +52,7 @@ function checkAnswer(selectedColor) {
       gameStatus.textContent = "Try again!";
       colorBox.style.backgroundColor = "#fff";
       generateColors();
-    }, 2000);
+    }, 1000);
   }
 }
 
